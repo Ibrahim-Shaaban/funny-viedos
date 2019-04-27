@@ -28,11 +28,12 @@ class SearchBar extends React.Component{
                               id="exampleInputEmail1"
                               value = {this.state.searchValue}
                               onChange = {this.onSearchChange}
+                              placeholder = 'enter keyword to search'
                              />
-                             <button type="submit" className="btn btn-primary">Search</button>
+                             
                             
                         </div>
-                        
+                        <button type="submit" className="btn btn-primary">Search</button>
                     </form>
                 </div>
             </Card>
