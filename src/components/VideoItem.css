@@ -1,0 +1,8 @@
+.item-img {
+    width:200px !important;
+    height: 100px !important;
+}
+
+.video-item{
+    cursor:pointer;
+}
